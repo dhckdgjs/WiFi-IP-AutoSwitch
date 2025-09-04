@@ -20,6 +20,7 @@ Hammerspoon을 이용한 macOS WiFi SSID 기반 자동 IP/DNS/게이트웨이 �
 - **macOS**: 10.12 Sierra 이상
 - **Hammerspoon**: 0.9.76 이상
 - **관리자 권한**: 네트워크 설정 변경을 위해 필요
+- **Location Services 권한 필수**: 정확한 SSID 네임 파싱을 위해 필요(미지정시 SSID 인식 불가, 스크립트 내 자동 추가 함수 포함)
 
 ## 🚀 설치 방법
 
@@ -256,6 +257,7 @@ tail -f /var/log/ssid-ip-switcher.log
 - **보안**: sudoers 파일을 수정하므로 신뢰할 수 있는 환경에서만 사용하세요
 - **백업**: 설치 전 네트워크 설정을 백업해두는 것을 권장합니다
 - **테스트**: 중요한 환경에서 사용하기 전에 충분히 테스트하세요
+- **수정**: 패키지 설치 후 수정을 할 경우 ~/.hammerspoon/init.lua 파일을 직접 수정하세요
 
 ## 🤝 기여하기
 
