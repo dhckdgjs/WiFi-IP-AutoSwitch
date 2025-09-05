@@ -251,6 +251,10 @@ sudo rm -f /etc/sudoers.d/wifi-ip-switch
 mv ~/.hammerspoon/init.lua ~/.hammerspoon/init.lua.backup
 ```
 
+또는 uninstaller 사용:
+
+pkg 설치시에는 uninstaller가 /System/Applications/Utilities 에 같이 설치됩니다.
+
 > 💡 **참고**: 모든 설정 파일들이 `settings/` 폴더에 정리되어 있어 관리가 용이합니다.
 
 ## 📝 로그 확인
