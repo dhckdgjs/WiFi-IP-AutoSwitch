@@ -46,6 +46,17 @@ bash setup.sh
 bash setup.sh install
 ```
 
+> 💡**참고**:권한 설정이 안된 경우 자동으로 IP 변경되지 않습니다.<br>
+특히 위치 권한 허용 윈도우는 스크립트에서 자동으로 호출되며 이를 거부하면 스크립트 작동 불가능합니다.<br>
+(hs.location.start() 활용하여 위치 권한 강제 확보)
+
+<br>
+<p align="left">
+<img width="295" height="372" alt="Screenshot 2025-09-05 at 10 00 29AM" src="https://github.com/user-attachments/assets/118d3fc2-959b-472e-8502-73380996d970" />
+<img width="295" height="372" alt="Screenshot 2025-09-05 at 10 02 52AM" src="https://github.com/user-attachments/assets/4cc94a6b-f4bf-4615-bd12-8b409a60d86b" />
+</p>
+<br>
+
 > 💡 **참고**: `setup.sh`가 자동으로 필요한 권한을 설정하고 설치를 진행하므로 별도의 `chmod` 명령이 필요하지 않습니다.
 
 설치 스크립트는 다음 작업을 자동으로 수행합니다:
