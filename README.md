@@ -1,5 +1,7 @@
 # WiFi 고정 IP 자동 전환 도구 for MacOS
 
+[README English ver](https://github.com/dhckdgjs/WiFi-IP-AutoSwitch/blob/main/README_en.md)
+
 Hammerspoon을 이용한 macOS WiFi SSID 기반 자동 IP/DNS/게이트웨이 설정 도구입니다.<br>
 (아이폰 테더링/핫스팟 사용시 IP를 정상적으로 잡지 못하는 경우 유용)
 
